@@ -1,7 +1,7 @@
 pub mod models;
 pub mod schema;
 
-use diesel::{prelude::*, sqlite::Sqlite};
+use diesel::prelude::*;
 use dotenvy::dotenv;
 use models::{NewPost, Post};
 use std::env;
